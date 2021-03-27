@@ -1,6 +1,7 @@
 <?php
  session_start();
- require_once('../views/header.php');
+ require_once('./views/header.php');
+ 
  $getallitems = getallitems();
  if(isset($_REQUEST['submit']))
 {
